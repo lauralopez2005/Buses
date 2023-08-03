@@ -13,7 +13,7 @@ if ($conn->connect_error){
 $nombre= $_POST['nombre'];
 $email=$_POST['email'];
 
-$sql = "INSERT INTO suscripcion(
+$sql = "INSERT INTO suscripciones(
     nombre, 
     email
 )
